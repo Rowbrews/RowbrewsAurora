@@ -4,7 +4,7 @@
 		<name>Way of the Aevant</name>
 		<description>The Aevant Order archetype from Campaign One.</description>
 		<author url="https://www.patreon.com/rowbrews">Rowbrews</author>
-		<update version="0.0.1">
+		<update version="0.0.1">	
 			<file name="monk-aevant.xml" url="TBC" />
 		</update>
 	</info>
@@ -35,7 +35,9 @@
         <description>
             <p>When you choose this tradition at 3rd level, you gain proficiency in the Insight and Persuasion skills if you don’t already have it. Your training in diplomacy and negotiation have also made you adept at understanding the terms of any agreement. You have advantage on ability checks made to understand the terms of treaties or contracts.</p>
         </description>
-        <sheet display="true" />
+        <sheet>
+            <description>Your training in diplomacy and negotiation have also made you adept at understanding the terms of any agreement. You have advantage on ability checks made to understand the terms of treaties or contracts. </description>
+        </sheet>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
