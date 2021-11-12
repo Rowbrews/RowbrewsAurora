@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="1.0">
+      <file name="rowbrews.index" url="https://github.com/Rowbrews/RowbrewAurora/blob/main/rowbrews.index />
+    </update>
+  </info>
+  <files>
+    <file name="monk-aevent.xml" url="https://github.com/Rowbrews/RowbrewAurora/blob/main/RowbrewsAurora/Class%20Options/Monk/monk-aevant.xml" />
+ 
+  </files>
+</index>
