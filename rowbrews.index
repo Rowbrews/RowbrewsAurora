@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="1.0">
+      <file name="sample.index" url="http://hosting.com/files/sample.index" />
+    </update>
+  </info>
+  <files>
+    <file name="source.xml" url="http://hosting.com/files/source.xml" />
+    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+  </files>
+</index>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Way of the Aevant</name>
+		<description>The Aevant Order archetype from Campaign One.</description>
+		<author url="https://www.patreon.com/rowbrews">Rowbrews</author>
+		<update version="0.0.1">
+			<file name="monk-aevant.xml" url="TBC" />
+		</update>
+	</info>
+
+    <element name="Way of the Aevant Order" type="Archetype" source="Rowbrews" id="ID__AEVANT">
+        <supports>Monastic Tradition</supports>
+        <description>
+            <p>Monks who follow the Way of the Aevant learn to use their keen insight to manipulate the flow of energy in themselves and others. They are paragons of balance, knowing that when the pendulum swings too far in any direction, many become hurt.</p>
+            <p class="indent">Way of the Aevant monks expand their mind through study, opening internal barriers and letting energy flow out from within. Their eyes glow a subtle colour unique to each when they use their abilities, physically showing this energy pour out from within.</p>
+            <div element="ID_AEVANT_BARGAINER" />
+            <div element="ID_AEVANT_HAND_OF_THE_ARBITER" />
+            <div element="ID_AEVANT_ASCENDED_INSIGHT" />
+            <div element="ID_AEVANT_EMPOWERED_KI" />
+            <div element="ID_AEVANT_TBC17" />
+        </description>
+        <sheet>
+            <description>Using their keen insight, Monks of the Aevant Order expand their mind to manipulate the energy flow inside other creatures and themselves.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_AEVANT_BARGAINER" level="3"/>
+            <grant type="Archetype Feature" id="ID_AEVANT_HAND_OF_THE_ARBITER" level="3"/>
+            <grant type="Archetype Feature" id="ID_AEVANT_ASCENDED_INSIGHT" level="6"/>
+            <grant type="Archetype Feature" id="ID_AEVANT_EMPOWERED_KI" level="11"/>
+            <grant type="Archetype Feature" id="ID_AEVANT_TBC17" level="17"/>
+        </rules>
+    </element>
+    <element name="Bargainer" type="Archetype Feature" source="Rowbrews" id="ID_AEVANT_BARGAINER">
+        <description>
+            <p>When you choose this tradition at 3rd level, you gain proficiency in the Insight and Persuasion skills if you don’t already have it. Your training in diplomacy and negotiation have also made you adept at understanding the terms of any agreement. You have advantage on ability checks made to understand the terms of treaties or contracts.</p>
+        </description>
+        <sheet display="true" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+        </rules>
+    </element>
+    <element name="Hand of the Arbiter" type="Archetype Feature" source="Rowbrews" id="ID_AEVANT_HAND_OF_THE_ARBITER">
+        <description>
+            <p>Starting at 3rd level, you open your mind, calling upon studious training from the past. From the list below, choose one style and roll a d6 to determine another (re-rolling any duplicates). These effects last for 1 minutes, and you can use this feature a number of times equal to your dexterity modifier (minimum 1) per long rest.</p>
+            <p class="indent"><b><i>Weal. </i></b>When you hit an enemy with Flurry of Blows, you can heal a creature within 5ft for (Martial Die + Wisdom modifier).</p>
+            <p class="indent"><b><i>Woe. </i></b>When you hit an enemy with Flurry of Blows, you strike their nerves, blinding them until the end of their next turn.</p>
+            <p class="indent"><b><i>Foresight. </i></b>You can use Step the Wind as a reaction, allowing a maximum 20ft of movement.</p>
+            <p class="indent"><b><i>Displace. </i></b>When you hit an enemy with Flurry of Blows, you can force them to make a strength saving throw (DC 8+prof+STR). On a failure you push the creature up to 10 feet away from you in a straight line.</p>
+            <p class="indent"><b><i>Analyse. </i></b>If an enemy attacks you during Patient Defense, you can use your reaction to strike them as if it was an attack of opportunity. </p>
+            <p class="indent"><b><i>Evocate. </i></b>You can spend two Ki points to cast a spell from the following list; Silence, Warding Bond, Alter Self, Levitate.</p>
+            <p>Starting at 6th level, you can re-roll the random die for this feature. Also, you can seek out other styles to study and learn. As you learn more styles, the must always be six options on the table above. You can prepare styles at the start of the adventuring day, following a long rest. Work with your DM to unlock, discover or create more features to add to this list that fulfil your character’s goals. When you decide on a new feature to pursue; your DM will create a learning challenge during downtime to try to gain access to this new feature. It however, will not be easy; as failure is an element on the journey to knowledge.</p>
+
+        </description>
+        <sheet>
+            <description>Choose a style, and roll a d6 to determine the other. These styles last for 1 minute, and you can use this feature a number of times equal to your dexterity modifier per long rest. 1. Weal (Flurry of Blows = Heal a creature within 5ft for Martial Die + WIS). 2. Woe (Flurry of Blows = Blind creature until end of next turn). 3. Foresight (Step the Wind is now a reaction, allowing a max of 20ft of movement). 4. Displace (Flurry of Blows = STR save (DC 8+prof+STR). On fail, push a creature 10ft away). 5. Analyse (Being attacked during Patient Defense give you an attack of opportunity on the enemy). 6. Evocate (Spend 2 ki to cast one of the following; Silence, Warding Bond, Alter Self, Levitate) </description>
+        </sheet>
+    </element>
+    <element name="Ascended Insight" type="Archetype Feature" source="Rowbrews" id="ID_AEVANT_ASCENDED_INSIGHT">
+        <description>
+            <p>Starting at 6th level, you can see the energy shift inside other creatures. After hitting a creature with an attack, you can spend a ki point to force them to make a charisma saving throw (8+prof+DEX). On a failure, choose from the following.</p>
+            <p class="indent"><b><i>Copycat </i></b>Copy the last action the creature took, only if the event is possible and doesn’t require other mechanics (DM ruling).</p>
+            <p class="indent"><b><i>Observe. </i></b>Learn the details of the last action the creature took (what the action was, damage type, can it do it again, etc.)</p>
+            <p class="indent"><b><i>Divulge. </i></b>Learn what are the creature’s vulnerabilities, immunities, condition immunities and resistances.</p>
+            <p class="indent"><b><i>Read. </i></b>Gain the effects of the Detect Thoughts spell, on the creature struck until the beginning of your next turn.</p>
+  
+        </description>
+        <sheet>
+            <description>On hit, spend a ki point for force a CHA save (DC 8+prof+DEX). On fail, choose one of the following. Copycat (Copy the last action the creature took, only if the event is possible and doesn’t require other mechanics), Observe (Learn the details of the last action the creature took. i.e. What the action was, damage type, can it do it again, etc.), Divulge (Learn what are the creature’s vulnerabilities, immunities, condition immunities and resistances), Read (Gain the effects of the Detect Thoughts spell, on the creature struck until the beginning of your next turn).</description>
+        </sheet>
+    </element>
+    <element name="Empowered Ki" type="Archetype Feature" source="Robrews" id="ID_AEVANT_EMPOWERED_KI">
+        <description>
+            <p>Starting at llth level, you can empower your ki abilities by spending an extra ki point when you use them.</p>
+            <p class="indent"><b><i>Flurry of Blows. </i></b>Spend a ki point to add 1d6 necrotic or radiant damage on hit to both attacks.</p>
+            <p class="indent"><b><i>Patient Defense. </i></b>Use your reaction to spend a ki point to reduce an attack roll by a martial die roll. This should be used after the hit roll, but before damage is done.</p>
+            <p class="indent"><b><i>Step the Wind. </i></b>Spend a ki point to add the blink option; a teleport equal to your base movement speed, to a location you can see.</p>
+        </description>
+        <sheet>
+            <description>You can empower your core Ki abilities by spending an extra Ki point. Flurry of Blows (Spend a ki point to add 1d6 necrotic or radiant damage on hit to both attacks), Patient Defense (Use your reaction to spend a ki point to reduce an attack roll by a martial die roll. This should be used after the hit roll, but before damage is done), Step the Wind (Spend a ki point to add the blink option; a teleport equal to your base movement speed, to a location you can see).</description>
+        </sheet>
+    </element>
+    <element name="TBC17" type="Archetype Feature" source="Rowbrews" id="ID_AEVANT_TBC17">
+        <description>
+            <p>At 17th level, you gain an ability.</p>
+        </description>
+        <sheet>
+            <description>At 17th level, you gain an ability.</description>
+        </sheet>
+    </element>
+</elements>
