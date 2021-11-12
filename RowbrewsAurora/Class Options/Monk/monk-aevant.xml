@@ -4,7 +4,7 @@
 		<name>Way of the Aevant</name>
 		<description>The Aevant Order archetype from Campaign One.</description>
 		<author url="https://www.patreon.com/rowbrews">Rowbrews</author>
-		<update version="0.0.1">	
+		<update version="0.0.2">	
 			<file name="monk-aevant.xml" url="TBC" />
 		</update>
 	</info>
