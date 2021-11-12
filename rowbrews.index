@@ -2,11 +2,11 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="rowbrews.index" url="https://github.com/Rowbrews/RowbrewAurora/blob/main/rowbrews.index />
+      <file name="rowbrews.index" url="https://raw.githubusercontent.com/Rowbrews/RowbrewAurora/main/rowbrews.index?token=AWORXB2LVHTIVFSM7PGE5I3BRZ5CQ"/>
     </update>
   </info>
   <files>
-    <file name="monk-aevent.xml" url="https://github.com/Rowbrews/RowbrewAurora/blob/main/RowbrewsAurora/Class%20Options/Monk/monk-aevant.xml" />
+    <file name="monk-aevent.xml" url="https://raw.githubusercontent.com/Rowbrews/RowbrewAurora/main/RowbrewsAurora/Class%20Options/Monk/monk-aevant.xml?token=AWORXB6DEIC5M7QUQSWHRCDBRZ44Y"/>
  
   </files>
 </index>
