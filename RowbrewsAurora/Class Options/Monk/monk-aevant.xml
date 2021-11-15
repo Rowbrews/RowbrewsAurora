@@ -4,7 +4,7 @@
 		<name>Way of the Aevant</name>
 		<description>The Aevant Order archetype from Campaign One.</description>
 		<author url="https://www.patreon.com/rowbrews">Rowbrews</author>
-		<update version="0.0.2">	
+		<update version="0.0.3">	
 			<file name="monk-aevant.xml" url="TBC" />
 		</update>
 	</info>
@@ -69,13 +69,7 @@
   
         </description>
         <sheet>
-            <description>
-            <p>Starting at 6th level, you can see the energy shift inside other creatures. After hitting a creature with an attack, you can spend a ki point to force them to make a charisma saving throw (8+prof+DEX). On a failure, choose from the following.</p>
-            <p class="indent"><b><i>Copycat </i></b>Copy the last action the creature took, only if the event is possible and doesn’t require other mechanics (DM ruling).</p>
-            <p class="indent"><b><i>Observe. </i></b>Learn the details of the last action the creature took (what the action was, damage type, can it do it again, etc.)</p>
-            <p class="indent"><b><i>Divulge. </i></b>Learn what are the creature’s vulnerabilities, immunities, condition immunities and resistances.</p>
-            <p class="indent"><b><i>Read. </i></b>Gain the effects of the Detect Thoughts spell, on the creature struck until the beginning of your next turn.</p>
-        </description>
+            <description>On hit, spend a ki point for force a CHA save (DC 8+prof+DEX). On fail, choose one of the following. <i>Copycat</i> (Copy the last action the creature took, only if the event is possible and doesn’t require other mechanics), <i>Observe</i> (Learn the details of the last action the creature took. i.e. What the action was, damage type, can it do it again, etc.), <i>Divulge</i> (Learn what are the creature’s vulnerabilities, immunities, condition immunities and resistances), <i>Read</i> (Gain the effects of the Detect Thoughts spell, on the creature struck until the beginning of your next turn).</description>
         </sheet>
     </element>
     <element name="Empowered Ki" type="Archetype Feature" source="Robrews" id="ID_AEVANT_EMPOWERED_KI">
